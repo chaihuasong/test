@@ -1,17 +1,17 @@
 {
-  "minVersion": "100", // app最低支持的版本代码(包含),低于此数值的app将强制更新
-  "minAllowPatchVersion": "100", // 最低支持的差分版本(包含),低于此数值的app将采取全量更新,否则采用差量
-  "newVersion": "101", // 当前最新版本代码
-  "tip": "这是第一个测试更新",	// 更新提示
-  "size": 2556755,	// 最新apk文件大小
-  "apkURL": "https://github.com/chaihuasong/test/tree/master/resource/app/app_new.apk", // 最新apk url地址
-  "hash": "a583e488c886c1b10e804d758109ec8a", // 最新apk文件的md5值
-  "patchInfo": {  // 差分包信息
-    "v100": { // v100表示-版本代码100的apk需要下载的差分包
-      "patchURL": "https://github.com/chaihuasong/test/tree/master/resource/app/v100/diff.patch", //差分包地址
-      "tip": "测试的提示", // 提示
-      "hash": "a583e488c886c1b10e804d758109ec8a", // 合成后apk(即版本代码101)的文件md5值
-      "size": 40272 // 差分包大小
+  "minVersion": "100",
+  "minAllowPatchVersion": "100",
+  "newVersion": "101",
+  "tip": "这是第一个测试更新",
+  "size": 2556755,
+  "apkURL": "https://github.com/chaihuasong/test/tree/master/resource/app/app_new.apk",
+  "hash": "a583e488c886c1b10e804d758109ec8a",
+  "patchInfo": {
+    "v100": {
+      "patchURL": "https://github.com/chaihuasong/test/tree/master/resource/app/v100/diff.patch",
+      "tip": "测试的提示",
+      "hash": "a583e488c886c1b10e804d758109ec8a",
+      "size": 40272
     }
   }
 }
