@@ -4,11 +4,11 @@
   "newVersion":"101",
   "tip":"第一个测试更新",
   "size":2556795,
-  "apkURL":"https://github.com/chaihuasong/test/tree/master/resource/app/app_new.apk",
+  "apkURL":"https://raw.githubusercontent.com/chaihuasong/test/master/resource/app/app_new.apk",
   "hash":"d2e94eb1f4ad3d6e8897ee6bf795244a",
   "patchInfo":{
     "v100":{
-      "patchURL":"https://github.com/chaihuasong/test/tree/master/resource/app/v100/diff.patch",
+      "patchURL":"https://raw.githubusercontent.com/chaihuasong/test/master/resource/app/v100/diff.patch",
       "tip":"test2",
       "hash":"d2e94eb1f4ad3d6e8897ee6bf795244a",
       "size":42660
